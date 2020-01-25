@@ -1,0 +1,12 @@
+{
+  "name": "Nice Log",
+  "mode": "file",
+  "out": "docs",
+  "exclude": ["src/**/*.spec.ts"],
+  "theme": "minimal",
+  "excludeExternals": true,
+  "includeDeclarations": false,
+  "categorizeByGroup": false,
+  "hideGenerator": true,
+  "excludePrivate": true
+}

@@ -1,0 +1,52 @@
+{
+  "name": "nice-log",
+  "version": "1.0.0",
+  "description": "Pretty console logs.",
+  "scripts": {
+    "build": "webpack",
+    "lint": "tslint -p tsconfig.json",
+    "test": "jest",
+    "coverage": "jest --coverage",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "docs": "typedoc src",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test && npm run lint",
+    "preversion": "npm run lint",
+    "version": "npm run format && git add -A src",
+    "postversion": "git push && git push --tags"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "log",
+    "logger",
+    "console",
+    "browser",
+    "pretty",
+    "nice",
+    "color"
+  ],
+  "author": "Dominik-Andreas Geng",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/domske/nice-log.git"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.9.1",
+    "clean-webpack-plugin": "^3.0.0",
+    "jest": "^24.9.0",
+    "prettier": "^1.19.1",
+    "ts-jest": "^24.1.0",
+    "ts-loader": "^6.2.1",
+    "tslint": "^6.0.0",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-consistent-codestyle": "^1.16.0",
+    "typescript": "^3.7.5",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  }
+}
