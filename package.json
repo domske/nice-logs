@@ -1,6 +1,6 @@
 {
-  "name": "nice-log",
-  "version": "1.0.0",
+  "name": "nice-logs",
+  "version": "1.0.1",
   "description": "Pretty console logs.",
   "scripts": {
     "build": "webpack",
@@ -33,7 +33,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/domske/nice-log.git"
+    "url": "git://github.com/domske/nice-logs.git"
   },
   "devDependencies": {
     "@types/jest": "^24.9.1",

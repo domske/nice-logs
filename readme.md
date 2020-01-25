@@ -1,8 +1,8 @@
-# Nice Log
+# Nice Logs
 
 ![](docs/demo.png)
 
-[Website](https://domske.github.io/nice-log/)
+[Website](https://domske.github.io/nice-logs/)
 
 A pretty nice, colorful and lightweight console log for the browser.
 Prints a line with log type and high resolution time stamp. With integrated TypeScript type definitions.
@@ -10,10 +10,10 @@ Prints a line with log type and high resolution time stamp. With integrated Type
 ## Install
 
 ```text
-npm i nice-log
+npm i nice-logs
 ```
 
-[NPM Package](https://www.npmjs.com/package/nice-log)
+[NPM Package](https://www.npmjs.com/package/nice-logs)
 
 ## Usage
 
