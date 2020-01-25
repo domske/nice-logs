@@ -1,5 +1,7 @@
 # Nice Logs
 
+[![Version][version]][package] [![MIT License][license-badge]][license]
+
 ![](docs/demo.png)
 
 [Website](https://domske.github.io/nice-logs/)
@@ -43,3 +45,10 @@ Log.info('Hehe');
 ## Troubleshoot
 
 This should work with all Chromium browsers like Chrome, Opera and the "new" Edge browser. (The Edge with Chromium. The old one does not support it.) It also works with Firefox. Not tested in Safari. NodeJS is not supported. Maybe in the future.
+
+<!-- badges (common) -->
+
+[license-badge]: https://img.shields.io/npm/l/nice-logs.svg?style=flat-square
+[license]: https://opensource.org/licenses/MIT
+[version]: https://img.shields.io/npm/v/nice-logs.svg?style=flat-square
+[package]: https://www.npmjs.com/package/nice-logs
